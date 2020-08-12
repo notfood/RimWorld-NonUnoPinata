@@ -129,7 +129,7 @@ namespace NonUnoPinata
         }
     }
 
-    [HarmonyPatch(typeof(GenDrop), nameof(GenDrop.TryDropSpawn))]
+    [HarmonyPatch(typeof(GenDrop), nameof(GenDrop.TryDropSpawn_NewTmp))]
     static class GenPlace_TryPlaceThing_NonUnoPinataPatch
     {
 
